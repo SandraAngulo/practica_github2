@@ -7,8 +7,8 @@ public class Caballo extends Animal {
     public Caballo() {
     }
 
-    public Caballo(String nombre, String alimento, Integer edad, String razaAnimal) {
-        super(nombre, alimento, edad, razaAnimal);
+    public Caballo(String nombre, String alimento, Integer edad, String razaAnimal, String color) {
+        super(nombre, alimento, edad, razaAnimal,color);
     }
     
     // traer el atributo con super; this. oel atributo directo
