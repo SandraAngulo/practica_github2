@@ -19,5 +19,9 @@ public class Perro extends Animal {
     public  void hagoOtraCosa(){
        
         System.out.println("soy un Perro digo Guaua!!");
+        
 }
+      public void hagoUnSonido(){
+          System.out.println("guauuuu");
+   }
 }

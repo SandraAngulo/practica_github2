@@ -12,6 +12,7 @@ public class Animales {
         Animal perro = new Perro("Stich", "Carnivoro", 15, "Doberman");
         perro.alimentarse();
         perro.hagoOtraCosa();
+        perro.hagoUnSonido();
         // Declaracion de otro objeto Perro
         Perro perro1 = new Perro("Teddy", "Croquetas", 10, "Chiguagua");
         perro1.alimentarse();
@@ -19,9 +20,13 @@ public class Animales {
         Animal gato = new Gato("Pelusa", "Galletas", 15, "Siames");
         gato.alimentarse();
         gato.hagoOtraCosa();
+             gato.hagoUnSonido();
         Animal caballo= new Caballo("Spark", "Pasto", Integer.SIZE, "Fino");
         caballo.alimentarse();
         caballo.hagoOtraCosa();
+          caballo.hagoUnSonido();
+       
+   
     }
 
 }

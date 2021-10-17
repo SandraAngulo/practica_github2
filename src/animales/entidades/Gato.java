@@ -28,5 +28,7 @@ public class Gato extends Animal {
         System.out.println("Hola clase !!!");
 }
 
-   
+     public void hagoUnSonido(){
+         System.out.println("maullo");
+   }
 }

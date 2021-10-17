@@ -23,5 +23,7 @@ public class Caballo extends Animal {
      public  void hagoOtraCosa(){
          System.out.println("Chauu chicos!!!!"); 
      }       
-   
+     public void hagoUnSonido(){
+         System.out.println("relincho");
+   }
 }
